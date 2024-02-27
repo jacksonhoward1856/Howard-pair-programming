@@ -1,9 +1,0 @@
-def feet_and_inches_to_meters(feet, inches):
-    total_inches = feet * 12 + inches
-    meters = total_inches * 0.0254
-    return meters
-
-feet = 5
-inches = 11
-meters = feet_and_inches_to_meters(feet, inches)
-print(f"{feet} feet and {inches} inches is equal to {meters} meters.")
